@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 150px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.resume-container{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+#profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   margin: 20px 20px 10px 10px;
+   box-shadow: 0 0 15px yellow;
+   margin-bottom: 30px;
+}
+.left{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid yellow;
+    
+}
+#objective{
+    padding-top: 10px;
+    p{
+        padding-top: 10px;
+    }
+}
+#certification{
+    padding-top: 15px ;
+    p{
+        padding: 10px;
+        text-align: left;
+    }
+    
+}
+
+.rigth{
+
+    width: 65%;
+    padding: 20px;
+
+    
+}
+h3{
+    padding: 2%;
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px yellow;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+h1{
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ul{
+    
+    padding: 10;
+    margin: 10px 0;
+}
+ul li{
+    margin: 5px 0;
+}
+button{
+    border-radius: 10%;
+    box-shadow: 0 0 15px rgb(55, 53, 53);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: yellow;
+    
+}
